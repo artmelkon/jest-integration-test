@@ -9,6 +9,8 @@
 		"files.autoSaveDelay": 1000,
 		"editor.tabSize": 2,
 		"editor.fontSize": 12,
+		"editor.wordWrap": "on",
+		"editor.wordWrapColumn": 80,
 		"workbench.colorCustomizations": {
 			"tab.activeBackground": "#024e1c",
 			"tab.activeBorder": "#ff0000"

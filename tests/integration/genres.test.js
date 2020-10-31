@@ -23,7 +23,11 @@ describe('/api/genres', () => {
 
       expect(res.status).toBe(200);
       expect(res.body.length).toBe(5);
-      
+      expect(res.body.some(g => g.name === 'genre1')).toBeTruthy();
+      expect(res.body.some(g => g.name === 'genre2')).toBeTruthy();
+      expect(res.body.some(g => g.name === 'genre3')).toBeTruthy();
+      expect(res.body.some(g => g.name === 'genre4')).toBeTruthy();
+      expect(res.body.some(g => g.name === 'genre5')).toBeTruthy();
     });
   });
 });
